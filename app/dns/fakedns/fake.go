@@ -8,10 +8,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/cache"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/features/dns"
+	"github.com/mssvpn/Xray-Lite/common"
+	"github.com/mssvpn/Xray-Lite/common/cache"
+	"github.com/mssvpn/Xray-Lite/common/net"
+	"github.com/mssvpn/Xray-Lite/features/dns"
 )
 
 type Holder struct {

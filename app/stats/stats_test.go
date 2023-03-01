@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/xtls/xray-core/app/stats"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/features/stats"
+	. "github.com/mssvpn/Xray-Lite/app/stats"
+	"github.com/mssvpn/Xray-Lite/common"
+	"github.com/mssvpn/Xray-Lite/features/stats"
 )
 
 func TestInterface(t *testing.T) {

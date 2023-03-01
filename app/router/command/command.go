@@ -1,15 +1,15 @@
 package command
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/mssvpn/Xray-Lite/common/errors/errorgen
 
 import (
 	"context"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/routing"
-	"github.com/xtls/xray-core/features/stats"
+	"github.com/mssvpn/Xray-Lite/common"
+	"github.com/mssvpn/Xray-Lite/core"
+	"github.com/mssvpn/Xray-Lite/features/routing"
+	"github.com/mssvpn/Xray-Lite/features/stats"
 	"google.golang.org/grpc"
 )
 

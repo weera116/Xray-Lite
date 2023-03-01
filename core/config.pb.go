@@ -7,8 +7,8 @@
 package core
 
 import (
-	serial "github.com/xtls/xray-core/common/serial"
-	global "github.com/xtls/xray-core/transport/global"
+	serial "github.com/mssvpn/Xray-Lite/common/serial"
+	global "github.com/mssvpn/Xray-Lite/transport/global"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

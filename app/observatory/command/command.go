@@ -6,10 +6,10 @@ package command
 import (
 	"context"
 
-	"github.com/xtls/xray-core/app/observatory"
-	"github.com/xtls/xray-core/common"
-	core "github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/extension"
+	"github.com/mssvpn/Xray-Lite/app/observatory"
+	"github.com/mssvpn/Xray-Lite/common"
+	core "github.com/mssvpn/Xray-Lite/core"
+	"github.com/mssvpn/Xray-Lite/features/extension"
 	"google.golang.org/grpc"
 )
 

@@ -3,10 +3,10 @@ package router
 import (
 	"context"
 
-	"github.com/xtls/xray-core/app/observatory"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/extension"
+	"github.com/mssvpn/Xray-Lite/app/observatory"
+	"github.com/mssvpn/Xray-Lite/common"
+	"github.com/mssvpn/Xray-Lite/core"
+	"github.com/mssvpn/Xray-Lite/features/extension"
 )
 
 type LeastPingStrategy struct {

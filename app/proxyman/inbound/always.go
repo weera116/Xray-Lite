@@ -3,17 +3,17 @@ package inbound
 import (
 	"context"
 
-	"github.com/xtls/xray-core/app/proxyman"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/dice"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/mux"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/policy"
-	"github.com/xtls/xray-core/features/stats"
-	"github.com/xtls/xray-core/proxy"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/mssvpn/Xray-Lite/app/proxyman"
+	"github.com/mssvpn/Xray-Lite/common"
+	"github.com/mssvpn/Xray-Lite/common/dice"
+	"github.com/mssvpn/Xray-Lite/common/errors"
+	"github.com/mssvpn/Xray-Lite/common/mux"
+	"github.com/mssvpn/Xray-Lite/common/net"
+	"github.com/mssvpn/Xray-Lite/core"
+	"github.com/mssvpn/Xray-Lite/features/policy"
+	"github.com/mssvpn/Xray-Lite/features/stats"
+	"github.com/mssvpn/Xray-Lite/proxy"
+	"github.com/mssvpn/Xray-Lite/transport/internet"
 )
 
 func getStatCounter(v *core.Instance, tag string) (stats.Counter, stats.Counter) {

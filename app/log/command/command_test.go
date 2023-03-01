@@ -4,15 +4,15 @@ import (
 	"context"
 	"testing"
 
-	"github.com/xtls/xray-core/app/dispatcher"
-	"github.com/xtls/xray-core/app/log"
-	. "github.com/xtls/xray-core/app/log/command"
-	"github.com/xtls/xray-core/app/proxyman"
-	_ "github.com/xtls/xray-core/app/proxyman/inbound"
-	_ "github.com/xtls/xray-core/app/proxyman/outbound"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/core"
+	"github.com/mssvpn/Xray-Lite/app/dispatcher"
+	"github.com/mssvpn/Xray-Lite/app/log"
+	. "github.com/mssvpn/Xray-Lite/app/log/command"
+	"github.com/mssvpn/Xray-Lite/app/proxyman"
+	_ "github.com/mssvpn/Xray-Lite/app/proxyman/inbound"
+	_ "github.com/mssvpn/Xray-Lite/app/proxyman/outbound"
+	"github.com/mssvpn/Xray-Lite/common"
+	"github.com/mssvpn/Xray-Lite/common/serial"
+	"github.com/mssvpn/Xray-Lite/core"
 )
 
 func TestLoggerRestart(t *testing.T) {

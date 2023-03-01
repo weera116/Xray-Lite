@@ -3,9 +3,9 @@ package router
 import (
 	"strings"
 
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/strmatcher"
-	"github.com/xtls/xray-core/features/routing"
+	"github.com/mssvpn/Xray-Lite/common/net"
+	"github.com/mssvpn/Xray-Lite/common/strmatcher"
+	"github.com/mssvpn/Xray-Lite/features/routing"
 	"go.starlark.net/starlark"
 	"go.starlark.net/syntax"
 )

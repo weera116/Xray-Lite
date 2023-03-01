@@ -9,13 +9,13 @@
 // connections.
 package core
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/mssvpn/Xray-Lite/common/errors/errorgen
 
 import (
 	"fmt"
 	"runtime"
 
-	"github.com/xtls/xray-core/common/serial"
+	"github.com/mssvpn/Xray-Lite/common/serial"
 )
 
 var (
