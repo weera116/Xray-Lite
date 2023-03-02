@@ -1,6 +1,6 @@
 package inbound
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/mssvpn/Xray-Lite/common/errors/errorgen
 
 import (
 	"context"
@@ -9,24 +9,24 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/log"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/platform"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/common/signal"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/common/uuid"
-	"github.com/xtls/xray-core/core"
-	feature_inbound "github.com/xtls/xray-core/features/inbound"
-	"github.com/xtls/xray-core/features/policy"
-	"github.com/xtls/xray-core/features/routing"
-	"github.com/xtls/xray-core/proxy/vmess"
-	"github.com/xtls/xray-core/proxy/vmess/encoding"
-	"github.com/xtls/xray-core/transport/internet/stat"
+	"github.com/mssvpn/Xray-Lite/common"
+	"github.com/mssvpn/Xray-Lite/common/buf"
+	"github.com/mssvpn/Xray-Lite/common/errors"
+	"github.com/mssvpn/Xray-Lite/common/log"
+	"github.com/mssvpn/Xray-Lite/common/net"
+	"github.com/mssvpn/Xray-Lite/common/platform"
+	"github.com/mssvpn/Xray-Lite/common/protocol"
+	"github.com/mssvpn/Xray-Lite/common/session"
+	"github.com/mssvpn/Xray-Lite/common/signal"
+	"github.com/mssvpn/Xray-Lite/common/task"
+	"github.com/mssvpn/Xray-Lite/common/uuid"
+	"github.com/mssvpn/Xray-Lite/core"
+	feature_inbound "github.com/mssvpn/Xray-Lite/features/inbound"
+	"github.com/mssvpn/Xray-Lite/features/policy"
+	"github.com/mssvpn/Xray-Lite/features/routing"
+	"github.com/mssvpn/Xray-Lite/proxy/vmess"
+	"github.com/mssvpn/Xray-Lite/proxy/vmess/encoding"
+	"github.com/mssvpn/Xray-Lite/transport/internet/stat"
 )
 
 var (

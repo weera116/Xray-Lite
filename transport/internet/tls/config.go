@@ -9,11 +9,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/ocsp"
-	"github.com/xtls/xray-core/common/platform/filesystem"
-	"github.com/xtls/xray-core/common/protocol/tls/cert"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/mssvpn/Xray-Lite/common/net"
+	"github.com/mssvpn/Xray-Lite/common/ocsp"
+	"github.com/mssvpn/Xray-Lite/common/platform/filesystem"
+	"github.com/mssvpn/Xray-Lite/common/protocol/tls/cert"
+	"github.com/mssvpn/Xray-Lite/transport/internet"
 )
 
 var globalSessionCache = tls.NewLRUClientSessionCache(128)

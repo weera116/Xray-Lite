@@ -3,11 +3,11 @@ package vmess_test
 import (
 	"testing"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/common/uuid"
-	. "github.com/xtls/xray-core/proxy/vmess"
+	"github.com/mssvpn/Xray-Lite/common"
+	"github.com/mssvpn/Xray-Lite/common/protocol"
+	"github.com/mssvpn/Xray-Lite/common/serial"
+	"github.com/mssvpn/Xray-Lite/common/uuid"
+	. "github.com/mssvpn/Xray-Lite/proxy/vmess"
 )
 
 func toAccount(a *Account) protocol.Account {

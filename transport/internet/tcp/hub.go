@@ -8,14 +8,14 @@ import (
 
 	goxtls "github.com/xtls/go"
 	goreality "github.com/xtls/reality"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/reality"
-	"github.com/xtls/xray-core/transport/internet/stat"
-	"github.com/xtls/xray-core/transport/internet/tls"
-	"github.com/xtls/xray-core/transport/internet/xtls"
+	"github.com/mssvpn/Xray-Lite/common"
+	"github.com/mssvpn/Xray-Lite/common/net"
+	"github.com/mssvpn/Xray-Lite/common/session"
+	"github.com/mssvpn/Xray-Lite/transport/internet"
+	"github.com/mssvpn/Xray-Lite/transport/internet/reality"
+	"github.com/mssvpn/Xray-Lite/transport/internet/stat"
+	"github.com/mssvpn/Xray-Lite/transport/internet/tls"
+	"github.com/mssvpn/Xray-Lite/transport/internet/xtls"
 )
 
 // Listener is an internet.Listener that listens for TCP connections.

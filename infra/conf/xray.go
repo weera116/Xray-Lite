@@ -7,13 +7,13 @@ import (
 	"os"
 	"strings"
 
-	"github.com/xtls/xray-core/app/dispatcher"
-	"github.com/xtls/xray-core/app/proxyman"
-	"github.com/xtls/xray-core/app/stats"
-	"github.com/xtls/xray-core/common/serial"
-	core "github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/xtls"
+	"github.com/mssvpn/Xray-Lite/app/dispatcher"
+	"github.com/mssvpn/Xray-Lite/app/proxyman"
+	"github.com/mssvpn/Xray-Lite/app/stats"
+	"github.com/mssvpn/Xray-Lite/common/serial"
+	core "github.com/mssvpn/Xray-Lite/core"
+	"github.com/mssvpn/Xray-Lite/transport/internet"
+	"github.com/mssvpn/Xray-Lite/transport/internet/xtls"
 )
 
 var (

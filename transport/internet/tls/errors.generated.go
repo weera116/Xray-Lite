@@ -1,6 +1,6 @@
 package tls
 
-import "github.com/xtls/xray-core/common/errors"
+import "github.com/mssvpn/Xray-Lite/common/errors"
 
 type errPathObjHolder struct{}
 

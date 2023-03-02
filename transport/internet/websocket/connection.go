@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/mssvpn/websocket"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/serial"
+	"github.com/mssvpn/Xray-Lite/common/buf"
+	"github.com/mssvpn/Xray-Lite/common/errors"
+	"github.com/mssvpn/Xray-Lite/common/serial"
 )
 
 var _ buf.Writer = (*connection)(nil)

@@ -9,12 +9,12 @@ import (
 	"github.com/quic-go/quic-go"
 	"github.com/quic-go/quic-go/logging"
 	"github.com/quic-go/quic-go/qlog"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/stat"
-	"github.com/xtls/xray-core/transport/internet/tls"
+	"github.com/mssvpn/Xray-Lite/common"
+	"github.com/mssvpn/Xray-Lite/common/net"
+	"github.com/mssvpn/Xray-Lite/common/task"
+	"github.com/mssvpn/Xray-Lite/transport/internet"
+	"github.com/mssvpn/Xray-Lite/transport/internet/stat"
+	"github.com/mssvpn/Xray-Lite/transport/internet/tls"
 )
 
 type connectionContext struct {

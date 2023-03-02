@@ -10,11 +10,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/infra/conf"
-	"github.com/xtls/xray-core/infra/conf/serial"
-	"github.com/xtls/xray-core/main/commands/base"
+	"github.com/mssvpn/Xray-Lite/common"
+	"github.com/mssvpn/Xray-Lite/common/buf"
+	"github.com/mssvpn/Xray-Lite/infra/conf"
+	"github.com/mssvpn/Xray-Lite/infra/conf/serial"
+	"github.com/mssvpn/Xray-Lite/main/commands/base"
 	"google.golang.org/protobuf/proto"
 )
 

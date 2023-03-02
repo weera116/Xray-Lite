@@ -1,7 +1,7 @@
 package tls
 
 import (
-	"github.com/xtls/xray-core/main/commands/base"
+	"github.com/mssvpn/Xray-Lite/main/commands/base"
 )
 
 // CmdTLS holds all tls sub commands

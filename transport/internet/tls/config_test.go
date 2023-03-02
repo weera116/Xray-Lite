@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/protocol/tls/cert"
-	. "github.com/xtls/xray-core/transport/internet/tls"
+	"github.com/mssvpn/Xray-Lite/common"
+	"github.com/mssvpn/Xray-Lite/common/protocol/tls/cert"
+	. "github.com/mssvpn/Xray-Lite/transport/internet/tls"
 )
 
 func TestCertificateIssuing(t *testing.T) {

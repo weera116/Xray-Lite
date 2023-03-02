@@ -15,16 +15,16 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/xtls/xray-core/app/dispatcher"
-	"github.com/xtls/xray-core/app/proxyman"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/log"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/retry"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/common/units"
-	core "github.com/xtls/xray-core/core"
+	"github.com/mssvpn/Xray-Lite/app/dispatcher"
+	"github.com/mssvpn/Xray-Lite/app/proxyman"
+	"github.com/mssvpn/Xray-Lite/common"
+	"github.com/mssvpn/Xray-Lite/common/errors"
+	"github.com/mssvpn/Xray-Lite/common/log"
+	"github.com/mssvpn/Xray-Lite/common/net"
+	"github.com/mssvpn/Xray-Lite/common/retry"
+	"github.com/mssvpn/Xray-Lite/common/serial"
+	"github.com/mssvpn/Xray-Lite/common/units"
+	core "github.com/mssvpn/Xray-Lite/core"
 )
 
 func xor(b []byte) []byte {

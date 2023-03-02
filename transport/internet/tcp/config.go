@@ -1,8 +1,8 @@
 package tcp
 
 import (
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/mssvpn/Xray-Lite/common"
+	"github.com/mssvpn/Xray-Lite/transport/internet"
 )
 
 const protocolName = "tcp"

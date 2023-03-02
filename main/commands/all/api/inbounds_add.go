@@ -3,10 +3,10 @@ package api
 import (
 	"fmt"
 
-	handlerService "github.com/xtls/xray-core/app/proxyman/command"
-	"github.com/xtls/xray-core/infra/conf"
-	"github.com/xtls/xray-core/infra/conf/serial"
-	"github.com/xtls/xray-core/main/commands/base"
+	handlerService "github.com/mssvpn/Xray-Lite/app/proxyman/command"
+	"github.com/mssvpn/Xray-Lite/infra/conf"
+	"github.com/mssvpn/Xray-Lite/infra/conf/serial"
+	"github.com/mssvpn/Xray-Lite/main/commands/base"
 )
 
 var cmdAddInbounds = &base.Command{

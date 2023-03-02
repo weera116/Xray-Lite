@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/xtls/xray-core/main/commands/base"
-	. "github.com/xtls/xray-core/transport/internet/tls"
+	"github.com/mssvpn/Xray-Lite/main/commands/base"
+	. "github.com/mssvpn/Xray-Lite/transport/internet/tls"
 )
 
 // cmdPing is the tls ping command

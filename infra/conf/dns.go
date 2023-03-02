@@ -5,9 +5,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/xtls/xray-core/app/dns"
-	"github.com/xtls/xray-core/app/router"
-	"github.com/xtls/xray-core/common/net"
+	"github.com/mssvpn/Xray-Lite/app/dns"
+	"github.com/mssvpn/Xray-Lite/app/router"
+	"github.com/mssvpn/Xray-Lite/common/net"
 )
 
 type NameServerConfig struct {

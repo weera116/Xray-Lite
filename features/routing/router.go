@@ -1,8 +1,8 @@
 package routing
 
 import (
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/features"
+	"github.com/mssvpn/Xray-Lite/common"
+	"github.com/mssvpn/Xray-Lite/features"
 )
 
 // Router is a feature to choose an outbound tag for the given request.

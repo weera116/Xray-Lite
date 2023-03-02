@@ -1,7 +1,7 @@
 package global
 
 import (
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/mssvpn/Xray-Lite/transport/internet"
 )
 
 // Apply applies this Config.

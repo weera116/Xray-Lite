@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/xtls/xray-core/main/commands/base"
+	"github.com/mssvpn/Xray-Lite/main/commands/base"
 	"golang.org/x/crypto/curve25519"
 )
 

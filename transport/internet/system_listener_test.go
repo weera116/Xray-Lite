@@ -5,8 +5,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/mssvpn/Xray-Lite/common"
+	"github.com/mssvpn/Xray-Lite/transport/internet"
 )
 
 func TestRegisterListenerController(t *testing.T) {
